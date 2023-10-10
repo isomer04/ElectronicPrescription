@@ -2,15 +2,15 @@ server:
   port: 8080
 spring:
   datasource: 
-    url: jdbc:postgresql://localhost:5332/prescription
-    username: user
-    password: password
+    url: jdbc:mysql://aws.connect.psdb.cloud/prescription?sslMode=VERIFY_IDENTITY
+    username: dcp64xsm0vowp05uterq
+    password: pscale_pw_p1Fnvww3TWrI2pJ5bBLro0V81ghZD2w5KYxQGclwEqE
   jpa:
     hibernate:
       ddl-auto: create-drop
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
+        dialect: org.hibernate.dialect.MySQL8Dialect
         format_sql: true
     show-sql: true
 
