@@ -27,10 +27,36 @@ public class Prescription {
         generator = "prescription_sequence"
     )
     private int id;
+
     private String patientName; 
     private Integer patient_id; 
     //-------------getter and setters ---------------------
-    
+    public Prescription(){}
+    public Prescription(String patientName, Integer patient_id) {
+        this.patientName = patientName; 
+        this.patient_id = patient_id; 
+    }
+
+    //---------------getter and setters-----------------------
+    public int getId() {
+        return id;
+    }
+    public void setId(int id) {
+        this.id = id;
+    }
+    public String getPName() {
+        return patientName;
+    }
+    public void setId(String patientName) {
+        this.patientName = patientName;
+    }
+    public Integer getPId() {
+        return patient_id;
+    }
+    public void setPId(Integer patient_Id) {
+        this.patient_id = patient_Id;
+    }
+
     
     
 }
