@@ -21,5 +21,39 @@ public class Account {
     )
     private int id;
 
-    
+    private String username;
+    private String passsword;
+    private int isDoctor;
+
+    public Account(){}
+    public Account(String username, String password, int isDoctor) {
+        this.username = username; 
+        this.passsword = password; 
+        this.isDoctor = isDoctor;
+    }
+    //---------------getter and setters-----------------------
+    public int getAccountId() {
+        return id;
+    }
+    public void setAccountId(int id) {
+        this.id = id;
+    }
+    public String getUsername() {
+        return username;
+    }
+    public void setUsername(String username) {
+        this.username = username;
+    }
+    public String getPass() {
+        return passsword;
+    }
+    public void setPass(String password) {
+        this.passsword = password;
+    }
+    public int getOccupation() {
+        return isDoctor;
+    }
+    public void setOccupation(int isDoctor) {
+        this.isDoctor = isDoctor;
+    }
 }
