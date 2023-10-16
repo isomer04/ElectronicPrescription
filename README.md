@@ -20,3 +20,4 @@ Prescription History: Allow patients to access their prescription history, view 
 Notifications and Reminders: Provide notifications to patients for medication reminders and scheduled appointments.
 
 Data Backup and Recovery: Implement a robust data backup and recovery system to prevent data loss.
+
