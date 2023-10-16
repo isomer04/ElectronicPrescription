@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import { Login } from "./components/Login";
+import  Login  from "./components/Login";
 import Dashboard from "./components/Dashboard";
 import Patients from "./components/Patients";
 import Medications from "./components/Medications";
 import Prescriptions from "./components/Prescriptions";
 import Notifications from "./components/Notifications";
+
 // import { api } from "./api";
 
 const Home = () => {
